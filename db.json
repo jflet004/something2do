@@ -225,12 +225,20 @@
       "id": 28
     },
     {
-      "title": "Learn React",
-      "type": "educational",
-      "price": "$$$",
-      "participants": "1",
+      "title": "Listen to music you haven't heard in a while",
+      "type": "music",
+      "price": 0.05,
+      "participants": 1,
       "link": "",
       "id": 29
+    },
+    {
+      "title": "Write a song",
+      "type": "music",
+      "price": 0,
+      "participants": 1,
+      "link": "",
+      "id": 30
     }
   ]
 }

@@ -17,18 +17,24 @@ const ActivityContainer = () => {
     .catch(error => alert(error))
   },[])
 
-  const handleSearch = (searchValue) => {
+  const handleFilterByPrice = (searchValue) => {
     const updatedActivityList = activities.filter(activity => activity.price === searchValue)
+    setFilteredActivities(updatedActivityList)
+  }
+
+  const handleDeleteActivity = (deletedActivity) => {
+    const updatedActivityList = activities.filter(activity => activity.id !== deletedActivity.id)
     setFilteredActivities(updatedActivityList)
   }
 
   return (
     <div>
       <ActivityFilter
-        handleSearch={handleSearch}
+        handleFilterByPrice={handleFilterByPrice}
       />
       <ActivityList 
         activities={filteredActivities}
+        onDeleteActivity={handleDeleteActivity}
       />
 
     </div>

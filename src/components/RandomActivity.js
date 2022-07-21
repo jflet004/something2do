@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import RandomActivityCard from './RandomActivityCard'
 
 const RandomActivity = () => {
-  const [randomActivity, setRandomActivity] = useState([])
+  const [randomActivity, setRandomActivity] = useState()
 
 
   const handleRandomSubmit = e => {
@@ -18,13 +18,9 @@ const RandomActivity = () => {
       <form onSubmit={handleRandomSubmit}>
         <input type="submit" value="Get Random Activity"></input>
       </form>
-        <RandomActivityCard
-          title={randomActivity.activity}
-          type={randomActivity.type}
-          price={randomActivity.price}
-          participants={randomActivity.participants}
-          link={randomActivity.link}
-        />
+      {randomActivity && <RandomActivityCard
+        randomActivity={randomActivity}
+      />}
     </div>
   )
 }

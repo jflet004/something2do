@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 
-const ActivityFilter = ({ handleSearch }) => {
-  const [search, setSearch] = useState("")
+const ActivityFilter = ({ handleFilterByPrice }) => {
+  const [priceFilter, setPriceFilter] = useState("")
 
-  const handleChange = e => {
-    setSearch(e.target.value)
-    handleSearch(e.target.value)
+  const handlePriceFilter = e => {
+    setPriceFilter(e.target.value)
+    handleFilterByPrice(e.target.value)
   }
 
   return (
     <div>
       Filter By Price:
-      <select name='dropdown' onChange={handleChange}>
+      <select name='dropdown' onChange={handlePriceFilter}>
         <option value="$">$</option>
         <option value="$$">$$</option>
         <option value="$$$">$$$</option>
