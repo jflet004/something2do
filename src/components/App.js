@@ -18,11 +18,11 @@ const App = () => {
           <Home />
         </Route>
 
-        <Route exact path="/activities">
+        <Route path="/activities">
           <ActivityContainer />
         </Route>
 
-        <Route exact path="/addactivity">
+        <Route path="/activityform">
           <ActivityForm />
         </Route>
       </Switch>
