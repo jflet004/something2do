@@ -36,6 +36,15 @@ const NavBar = () => {
         }}
         style={style}
         exact
+        to="/randomactivity"
+      >Random Activity</NavLink>
+      <NavLink
+        activeStyle={{
+          fontWeight: "bolder",
+          color: "red",
+        }}
+        style={style}
+        exact
         to="/activityForm"
       >Add Activity</NavLink>
     </div>

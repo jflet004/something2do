@@ -17,7 +17,6 @@ const ActivityForm = () => {
       participants,
       link,
     }
-    console.log(activityObj)
 
     fetch("http://localhost:3001/activities", {
       method: "POST",
@@ -26,8 +25,13 @@ const ActivityForm = () => {
       },
       body: JSON.stringify(activityObj)
     })
-    // .then(r => r.json())
-    // .then(data => console.log(data))
+
+    setTitle("")
+    setType("")
+    setPrice("")
+    setParticipants("")
+    setLink("")
+
   }
 
   return (

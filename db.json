@@ -223,6 +223,14 @@
       "price": "$",
       "link": "https://en.wikipedia.org/wiki/Mandala",
       "id": 28
+    },
+    {
+      "title": "Learn React",
+      "type": "educational",
+      "price": "$$$",
+      "participants": "1",
+      "link": "",
+      "id": 29
     }
   ]
 }
