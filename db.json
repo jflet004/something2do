@@ -1,0 +1,283 @@
+{
+  "activities": [
+    {
+      "title": "Make your own LEGO creation",
+      "type": "recreational",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "1129748",
+      "accessibility": 0.1
+    },
+
+    {
+      "title": "Learn to write with your nondominant hand",
+      "type": "recreational",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "1645485",
+      "accessibility": 0.02
+    },
+
+    {
+      "title": "Do yoga",
+      "type": "recreational",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "4688012",
+      "accessibility": 0.9
+    },
+
+    {
+      "title": "Learn a new recipe",
+      "type": "cooking",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "6553978",
+      "accessibility": 0.05
+    },
+
+    {
+      "title": "Create a meal plan for the coming week",
+      "type": "cooking",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "3491470",
+      "accessibility": 0
+    },
+
+    {
+      "title": "Make homemade ice cream",
+      "type": "cooking",
+      "participants": 1,
+      "price": 0.2,
+      "link": "",
+      "id": "3818400",
+      "accessibility": 0.2
+    },
+
+    {
+      "title": "Start a webinar on a topic of your choice",
+      "type": "education",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "6826029",
+      "accessibility": 0.9
+    },
+
+    {
+      "title": "Learn how to make a website",
+      "type": "education",
+      "participants": 1,
+      "price": 0.1,
+      "link": "",
+      "id": "9924423",
+      "accessibility": 0.3
+    },
+
+    {
+      "title": "Learn how to fold a paper crane",
+      "type": "education",
+      "participants": 1,
+      "price": 0.1,
+      "link": "",
+      "id": "3136036",
+      "accessibility": 0.05
+    },
+
+    {
+      "title": "Play a game of tennis with a friend",
+      "type": "social",
+      "participants": 2,
+      "price": 0.1,
+      "link": "",
+      "id": "1093640",
+      "accessibility": 0.4
+    },
+
+    {
+      "title": "Hold a video game tournament with some friends",
+      "type": "social",
+      "participants": 4,
+      "price": 0,
+      "link": "",
+      "id": "2300257",
+      "accessibility": 0.1
+    },
+
+    {
+      "title": "Text a friend you haven't talked to in a long time",
+      "type": "social",
+      "participants": 2,
+      "price": 0.05,
+      "link": "",
+      "id": "6081071",
+      "accessibility": 0.2
+    },
+
+    {
+      "title": "Make a scrapbook with pictures of your favorite memories",
+      "type": "diy",
+      "participants": 1,
+      "price": 0.1,
+      "link": "",
+      "id": "5554174",
+      "accessibility": 0.1
+    },
+
+    {
+      "title": "Fix something that's broken in your house",
+      "type": "diy",
+      "participants": 1,
+      "price": 0.1,
+      "link": "",
+      "id": "6925988",
+      "accessibility": 0.3
+    },
+
+    {
+      "title": "Find a DIY to do",
+      "type": "diy",
+      "participants": 1,
+      "price": 0.4,
+      "link": "",
+      "id": "4981819",
+      "accessibility": 0.3
+    },
+
+    {
+      "title": "Pick up litter around your favorite park",
+      "type": "charity",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "4894697",
+      "accessibility": 0.05
+    },
+
+    {
+      "title": "Contribute code or a monetary donation to an open-source software project",
+      "type": "charity",
+      "participants": 1,
+      "price": 0.1,
+      "link": "https://github.com/explore",
+      "id": "7687030",
+      "accessibility": 0
+    },
+
+    {
+      "title": "Volunteer at your local food pantry",
+      "type": "charity",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "1878070",
+      "accessibility": 0.1
+    },
+
+    {
+      "title": "Donate to your local food bank",
+      "type": "charity",
+      "participants": 1,
+      "price": 0.5,
+      "link": "",
+      "id": "4150284",
+      "accessibility": 0.8
+    },
+
+    {
+      "title": "Learn to play a new instrument",
+      "type": "music",
+      "participants": 1,
+      "price": 0.55,
+      "link": "",
+      "id": "3192099",
+      "accessibility": 0.6
+    },
+
+    {
+      "title": "Listen to your favorite album",
+      "type": "music",
+      "participants": 1,
+      "price": 0.08,
+      "link": "",
+      "id": "3136729",
+      "accessibility": 0.2
+    },
+
+    {
+      "title": "Listen to a new music genre",
+      "type": "music",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "4708863",
+      "accessibility": 0
+    },
+
+    {
+      "title": "Rearrange and organize your room",
+      "type": "busywork",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "6197243",
+      "accessibility": 0.15
+    },
+
+    {
+      "title": "Organize your dresser",
+      "type": "busywork",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "7556665",
+      "accessibility": 1
+    },
+
+    {
+      "title": "Make a to-do list for your week",
+      "type": "busywork",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "5920481",
+      "accessibility": 0.05
+    },
+
+    {
+      "title": "Give your pet ten minutes of focused attention",
+      "type": "relaxation",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "9937387",
+      "accessibility": 0
+    },
+
+    {
+      "title": "Go for a walk",
+      "type": "relaxation",
+      "participants": 1,
+      "price": 0,
+      "link": "",
+      "id": "4286250",
+      "accessibility": 0.1
+    },
+
+    {
+      "title": "Draw and color a Mandala",
+      "type": "relaxation",
+      "participants": 1,
+      "price": 0.05,
+      "link": "https://en.wikipedia.org/wiki/Mandala",
+      "id": "4614092",
+      "accessibility": 0.1
+    }
+  ]
+}
