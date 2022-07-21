@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div>
       <NavBar />
-      <Header 
+      <Header
         appName="Something2Do"
         slogan="A solution to your boredom"
       />
@@ -34,7 +34,7 @@ const App = () => {
         <Route path="/about">
           <About />
         </Route>
-       
+
         <Route path="/randomactivity">
           <RandomActivity />
         </Route>

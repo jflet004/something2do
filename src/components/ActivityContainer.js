@@ -6,7 +6,7 @@ const ActivityContainer = () => {
 
   const [activities, setActivities] = useState([])
   const [filteredActivities, setFilteredActivities] = useState(activities)
-
+  
   useEffect(() => {
     fetch("http://localhost:3001/activities")
     .then(r => r.json())
