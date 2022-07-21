@@ -4,7 +4,9 @@ import { NavLink } from 'react-router-dom'
 const style = {
   width: "60%",
   margin: "5% 0 1%",
-  padding: "1em"
+  padding: "1em",
+  textDecoration: "none",
+  color: "blue"
 }
 const NavBar = () => {
   return (
@@ -24,6 +26,7 @@ const NavBar = () => {
           color: "red",
         }}
         style={style}
+        exact
         to="/activities"
       >My Activities</NavLink>
       <NavLink
@@ -32,6 +35,7 @@ const NavBar = () => {
           color: "red",
         }}
         style={style}
+        exact
         to="/activityForm"
       >Add Activity</NavLink>
     </div>

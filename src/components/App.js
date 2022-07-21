@@ -11,8 +11,11 @@ import ActivityForm from './ActivityForm'
 const App = () => {
   return (
     <div>
-      <Header />
       <NavBar />
+      <Header 
+        appName="Something2Do"
+        slogan="A solution to your boredom"
+      />
       <Switch>
         <Route exact path="/">
           <Home />
