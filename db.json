@@ -4,280 +4,252 @@
       "title": "Make your own LEGO creation",
       "type": "recreational",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "1129748",
-      "difficulty": 0.1
+      "id": 1
     },
 
     {
       "title": "Learn to write with your nondominant hand",
       "type": "recreational",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "1645485",
-      "difficulty": 0.02
+      "id": 2
     },
 
     {
       "title": "Do yoga",
       "type": "recreational",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "4688012",
-      "difficulty": 0.9
+      "id": 3
     },
 
     {
       "title": "Learn a new recipe",
       "type": "cooking",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "6553978",
-      "difficulty": 0.05
+      "id": 4
     },
 
     {
       "title": "Create a meal plan for the coming week",
       "type": "cooking",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "3491470",
-      "difficulty": 0
+      "id": 5
     },
 
     {
       "title": "Make homemade ice cream",
       "type": "cooking",
       "participants": 1,
-      "price": 0.2,
+      "price": "$$",
       "link": "",
-      "id": "3818400",
-      "difficulty": 0.2
+      "id": 6
     },
 
     {
       "title": "Start a webinar on a topic of your choice",
       "type": "education",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "6826029",
-      "difficulty": 0.9
+      "id": 7
     },
 
     {
       "title": "Learn how to make a website",
       "type": "education",
       "participants": 1,
-      "price": 0.1,
+      "price": "$",
       "link": "",
-      "id": "9924423",
-      "difficulty": 0.3
+      "id": 8
     },
 
     {
       "title": "Learn how to fold a paper crane",
       "type": "education",
       "participants": 1,
-      "price": 0.1,
+      "price": "$",
       "link": "",
-      "id": "3136036",
-      "difficulty": 0.05
+      "id": 9
     },
 
     {
       "title": "Play a game of tennis with a friend",
       "type": "social",
       "participants": 2,
-      "price": 0.1,
+      "price": "$",
       "link": "",
-      "id": "1093640",
-      "difficulty": 0.4
+      "id": 10
     },
 
     {
       "title": "Hold a video game tournament with some friends",
       "type": "social",
       "participants": 4,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "2300257",
-      "difficulty": 0.1
+      "id": 11
     },
 
     {
       "title": "Text a friend you haven't talked to in a long time",
       "type": "social",
       "participants": 2,
-      "price": 0.05,
+      "price": "$",
       "link": "",
-      "id": "6081071",
-      "difficulty": 0.2
+      "id": 12
     },
 
     {
       "title": "Make a scrapbook with pictures of your favorite memories",
       "type": "diy",
       "participants": 1,
-      "price": 0.1,
+      "price": "$",
       "link": "",
-      "id": "5554174",
-      "difficulty": 0.1
+      "id": 13
     },
 
     {
       "title": "Fix something that's broken in your house",
       "type": "diy",
       "participants": 1,
-      "price": 0.1,
+      "price": "$$",
       "link": "",
-      "id": "6925988",
-      "difficulty": 0.3
+      "id": 14
     },
 
     {
       "title": "Find a DIY to do",
       "type": "diy",
       "participants": 1,
-      "price": 0.4,
+      "price": "$",
       "link": "",
-      "id": "4981819",
-      "difficulty": 0.3
+      "id": 15
     },
 
     {
       "title": "Pick up litter around your favorite park",
       "type": "charity",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "4894697",
-      "difficulty": 0.05
+      "id": 16
     },
 
     {
       "title": "Contribute code or a monetary donation to an open-source software project",
       "type": "charity",
       "participants": 1,
-      "price": 0.1,
+      "price": "$$",
       "link": "https://github.com/explore",
-      "id": "7687030",
-      "difficulty": 0
+      "id": 17
     },
 
     {
       "title": "Volunteer at your local food pantry",
       "type": "charity",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "1878070",
-      "difficulty": 0.1
+      "id": 18
     },
 
     {
       "title": "Donate to your local food bank",
       "type": "charity",
       "participants": 1,
-      "price": 0.5,
+      "price": "$",
       "link": "",
-      "id": "4150284",
-      "difficulty": 0.8
+      "id": 19
     },
 
     {
       "title": "Learn to play a new instrument",
       "type": "music",
       "participants": 1,
-      "price": 0.55,
+      "price": "$$"
       "link": "",
-      "id": "3192099",
-      "difficulty": 0.6
+      "id": 20
     },
 
     {
       "title": "Listen to your favorite album",
       "type": "music",
       "participants": 1,
-      "price": 0.08,
+      "price": "$",
       "link": "",
-      "id": "3136729",
-      "difficulty": 0.2
+      "id": 21
     },
 
     {
       "title": "Listen to a new music genre",
       "type": "music",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "4708863",
-      "difficulty": 0
+      "id": 22
     },
 
     {
       "title": "Rearrange and organize your room",
       "type": "busywork",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "6197243",
-      "difficulty": 0.15
+      "id": 23
     },
 
     {
       "title": "Organize your dresser",
       "type": "busywork",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "7556665",
-      "difficulty": 1
+      "id": 24
     },
 
     {
       "title": "Make a to-do list for your week",
       "type": "busywork",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "5920481",
-      "difficulty": 0.05
+      "id": 25
     },
 
     {
       "title": "Give your pet ten minutes of focused attention",
       "type": "relaxation",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "9937387",
-      "difficulty": 0
+      "id": 26
     },
 
     {
       "title": "Go for a walk",
       "type": "relaxation",
       "participants": 1,
-      "price": 0,
+      "price": "$",
       "link": "",
-      "id": "4286250",
-      "difficulty": 0.1
+      "id": 27
     },
 
     {
       "title": "Draw and color a Mandala",
       "type": "relaxation",
       "participants": 1,
-      "price": 0.05,
+      "price": "$",
       "link": "https://en.wikipedia.org/wiki/Mandala",
-      "id": "4614092",
-      "difficulty": 0.1
+      "id": 28
     }
   ]
 }
