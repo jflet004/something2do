@@ -8,7 +8,6 @@
       "link": "",
       "id": 1
     },
-
     {
       "title": "Learn to write with your nondominant hand",
       "type": "recreational",
@@ -17,7 +16,6 @@
       "link": "",
       "id": 2
     },
-
     {
       "title": "Do yoga",
       "type": "recreational",
@@ -26,7 +24,6 @@
       "link": "",
       "id": 3
     },
-
     {
       "title": "Learn a new recipe",
       "type": "cooking",
@@ -35,7 +32,6 @@
       "link": "",
       "id": 4
     },
-
     {
       "title": "Create a meal plan for the coming week",
       "type": "cooking",
@@ -44,7 +40,6 @@
       "link": "",
       "id": 5
     },
-
     {
       "title": "Make homemade ice cream",
       "type": "cooking",
@@ -53,7 +48,6 @@
       "link": "",
       "id": 6
     },
-
     {
       "title": "Start a webinar on a topic of your choice",
       "type": "education",
@@ -62,7 +56,6 @@
       "link": "",
       "id": 7
     },
-
     {
       "title": "Learn how to make a website",
       "type": "education",
@@ -71,7 +64,6 @@
       "link": "",
       "id": 8
     },
-
     {
       "title": "Learn how to fold a paper crane",
       "type": "education",
@@ -80,7 +72,6 @@
       "link": "",
       "id": 9
     },
-
     {
       "title": "Play a game of tennis with a friend",
       "type": "social",
@@ -89,7 +80,6 @@
       "link": "",
       "id": 10
     },
-
     {
       "title": "Hold a video game tournament with some friends",
       "type": "social",
@@ -98,7 +88,6 @@
       "link": "",
       "id": 11
     },
-
     {
       "title": "Text a friend you haven't talked to in a long time",
       "type": "social",
@@ -107,7 +96,6 @@
       "link": "",
       "id": 12
     },
-
     {
       "title": "Make a scrapbook with pictures of your favorite memories",
       "type": "diy",
@@ -116,7 +104,6 @@
       "link": "",
       "id": 13
     },
-
     {
       "title": "Fix something that's broken in your house",
       "type": "diy",
@@ -125,7 +112,6 @@
       "link": "",
       "id": 14
     },
-
     {
       "title": "Find a DIY to do",
       "type": "diy",
@@ -134,7 +120,6 @@
       "link": "",
       "id": 15
     },
-
     {
       "title": "Pick up litter around your favorite park",
       "type": "charity",
@@ -143,7 +128,6 @@
       "link": "",
       "id": 16
     },
-
     {
       "title": "Contribute code or a monetary donation to an open-source software project",
       "type": "charity",
@@ -152,7 +136,6 @@
       "link": "https://github.com/explore",
       "id": 17
     },
-
     {
       "title": "Volunteer at your local food pantry",
       "type": "charity",
@@ -161,7 +144,6 @@
       "link": "",
       "id": 18
     },
-
     {
       "title": "Donate to your local food bank",
       "type": "charity",
@@ -170,7 +152,6 @@
       "link": "",
       "id": 19
     },
-
     {
       "title": "Learn to play a new instrument",
       "type": "music",
@@ -179,7 +160,6 @@
       "link": "",
       "id": 20
     },
-
     {
       "title": "Listen to your favorite album",
       "type": "music",
@@ -188,7 +168,6 @@
       "link": "",
       "id": 21
     },
-
     {
       "title": "Listen to a new music genre",
       "type": "music",
@@ -197,7 +176,6 @@
       "link": "",
       "id": 22
     },
-
     {
       "title": "Rearrange and organize your room",
       "type": "busywork",
@@ -206,7 +184,6 @@
       "link": "",
       "id": 23
     },
-
     {
       "title": "Organize your dresser",
       "type": "busywork",
@@ -215,7 +192,6 @@
       "link": "",
       "id": 24
     },
-
     {
       "title": "Make a to-do list for your week",
       "type": "busywork",
@@ -224,7 +200,6 @@
       "link": "",
       "id": 25
     },
-
     {
       "title": "Give your pet ten minutes of focused attention",
       "type": "relaxation",
@@ -233,7 +208,6 @@
       "link": "",
       "id": 26
     },
-
     {
       "title": "Go for a walk",
       "type": "relaxation",
@@ -242,7 +216,6 @@
       "link": "",
       "id": 27
     },
-
     {
       "title": "Draw and color a Mandala",
       "type": "relaxation",
