@@ -1,0 +1,9 @@
+.activity-card {
+  border: solid;
+  width: 300px;
+  margin: auto;
+}
+
+.activity-info {
+  text-align: center;
+}
