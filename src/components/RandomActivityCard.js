@@ -1,15 +1,24 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-const RandomActivityCard = ({ randomActivity }) => {
+const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
 
-  const [isClicked, setIsClicked] = useState(false)
-  
+
+  let activityPrice;
+
+  if (randomActivity.price <= 0.33) {
+    activityPrice = "$"
+  } else if (randomActivity.price <= 0.66) {
+    activityPrice = "$$"
+  } else {
+    activityPrice = "$$$"
+  }
+
   const handleAddClick = () => {
-    
+
     const selectedRandomActivity = {
       title: randomActivity.activity,
       type: randomActivity.type,
-      price: randomActivity.price,
+      price: activityPrice,
       participants: randomActivity.participants,
       link: randomActivity.link
     }
@@ -31,7 +40,7 @@ const RandomActivityCard = ({ randomActivity }) => {
         <div className='activity-info'>
           <h3>{randomActivity.activity}</h3>
           <h5>Type: {randomActivity.type}</h5>
-          <h5>Price: {randomActivity.price > 1 ? "$$" : "$"}</h5>
+          <h5>Price: {activityPrice}</h5>
           <h5>Participants: {randomActivity.participants}</h5>
           <h5>Link: {randomActivity.link}</h5>
           <button

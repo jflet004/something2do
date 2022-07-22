@@ -1,22 +1,6 @@
 {
   "activities": [
     {
-      "title": "Make your own LEGO creation",
-      "type": "recreational",
-      "participants": 1,
-      "price": "$",
-      "link": "",
-      "id": 1
-    },
-    {
-      "title": "Learn to write with your nondominant hand",
-      "type": "recreational",
-      "participants": 1,
-      "price": "$",
-      "link": "",
-      "id": 2
-    },
-    {
       "title": "Do yoga",
       "type": "recreational",
       "participants": 1,

@@ -4,18 +4,20 @@ import ActivityList from "./ActivityList"
 
 const ActivityContainer = () => {
 
+
   const [activities, setActivities] = useState([])
   const [filteredActivities, setFilteredActivities] = useState(activities)
-  
+
+
   useEffect(() => {
     fetch("http://localhost:3001/activities")
-    .then(r => r.json())
-    .then(data => {
-      setActivities(data)
-      setFilteredActivities(data)
-    })
-    .catch(error => alert(error))
-  },[])
+      .then(r => r.json())
+      .then(data => {
+        setActivities(data)
+        setFilteredActivities(data)
+      })
+      .catch(error => alert(error))
+  }, [])
 
   const handleFilterByPrice = (searchValue) => {
     const updatedActivityList = activities.filter(activity => activity.price === searchValue)
@@ -23,8 +25,8 @@ const ActivityContainer = () => {
   }
 
   const handleDeleteActivity = (deletedActivity) => {
-    const updatedActivityList = activities.filter(activity => activity.id !== deletedActivity.id)
-    setFilteredActivities(updatedActivityList)
+    const updatedActivityList2 = filteredActivities.filter(activity => activity.id !== deletedActivity.id)
+    setFilteredActivities(updatedActivityList2)
   }
 
   return (
@@ -32,7 +34,7 @@ const ActivityContainer = () => {
       <ActivityFilter
         handleFilterByPrice={handleFilterByPrice}
       />
-      <ActivityList 
+      <ActivityList
         activities={filteredActivities}
         onDeleteActivity={handleDeleteActivity}
       />
