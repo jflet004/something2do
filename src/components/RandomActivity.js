@@ -1,3 +1,4 @@
+import './styles/RandomActivity.css'
 import React, { useState } from 'react'
 import RandomActivityCard from './RandomActivityCard'
 
@@ -18,8 +19,8 @@ const RandomActivity = () => {
   }
 
   return (
-    <div>
-    <button onClick={handleRandomActivityClick}>Get Random Activity</button>
+    <div className='randomBtn'>
+    <button  onClick={handleRandomActivityClick}>Get Random Activity</button>
       {randomActivity && <RandomActivityCard
         randomActivity={randomActivity}
         isClicked={isClicked}

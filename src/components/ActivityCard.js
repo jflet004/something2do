@@ -1,7 +1,7 @@
-import './styles/Activity.css'
+import './styles/ActivityCard.css'
 import React from 'react'
 
-const ActivityItem = ({ activity, onDeleteActivity }) => {
+const ActivityCard = ({ activity, onDeleteActivity }) => {
 
   const handleDeleteClick = () => {
     fetch(`http://localhost:3001/activities/${activity.id}`, {
@@ -26,4 +26,4 @@ const ActivityItem = ({ activity, onDeleteActivity }) => {
   )
 }
 
-export default ActivityItem
+export default ActivityCard

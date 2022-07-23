@@ -1,16 +1,16 @@
 import React from 'react'
-import ActivityItem from './ActivityItem'
+import ActivityCard from './ActivityCard'
 
 const ActivityList = ({ activities, onDeleteActivity }) => {
   const activityCards = activities.map(activity => 
-    <ActivityItem 
+    <ActivityCard 
       key={activity.id}
       activity={activity}
       onDeleteActivity={onDeleteActivity}
     />
   )
   return (
-    <div>
+    <div className='card'>
       {activityCards}
     </div>
   )

@@ -1,3 +1,4 @@
+import './styles/ActivityCard.css'
 import React, { useState, useEffect } from 'react'
 import ActivityList from "./ActivityList"
 
@@ -20,7 +21,7 @@ const ActivityContainer = () => {
   }
 
   return (
-    <div>
+    <div className='activity-list'>
       <ActivityList
         activities={activities}
         onDeleteActivity={handleDeleteActivity}

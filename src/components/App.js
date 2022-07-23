@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/App.css'
 import React from 'react'
 import Home from './Home'
 import Header from './Header'

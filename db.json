@@ -1,3 +1,39 @@
 {
-  "activities": []
+  "activities": [
+    {
+      "title": "Create or update your resume",
+      "type": "busywork",
+      "price": "FREE",
+      "participants": 1,
+      "id": 1
+    },
+    {
+      "title": "Organize a cluttered drawer",
+      "type": "busywork",
+      "price": "FREE",
+      "participants": 1,
+      "id": 2
+    },
+    {
+      "title": "Learn how the internet works",
+      "type": "education",
+      "price": "FREE",
+      "participants": 1,
+      "id": 3
+    },
+    {
+      "title": "Shop at support your local farmers market",
+      "type": "relaxation",
+      "price": "$",
+      "participants": 1,
+      "id": 5
+    },
+    {
+      "title": "Pot some plants and put them around your house",
+      "type": "relaxation",
+      "price": "$$",
+      "participants": 1,
+      "id": 6
+    }
+  ]
 }
