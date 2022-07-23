@@ -1,12 +1,14 @@
 .activity-card {
   border: solid;
-  width: 300px;
+  width: 40em;
+  height: 22em;
   margin: auto;
   margin-top: 5em;
   background-color: rgb(169, 235, 228);
 }
 
 .activity-info {
+  font-size: 150%;
   text-align: center;
 }
 

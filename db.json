@@ -1,67 +1,11 @@
 {
   "activities": [
     {
-      "title": "Study a foreign language",
+      "title": "Learn about a distributed version control system such as Git",
       "type": "education",
       "price": "FREE",
       "participants": 1,
       "id": 1
-    },
-    {
-      "title": "Learn how to fold a paper crane",
-      "type": "education",
-      "price": "$",
-      "participants": 1,
-      "id": 2
-    },
-    {
-      "title": "Explore the nightlife of your city",
-      "type": "social",
-      "price": "$",
-      "participants": 1,
-      "id": 3
-    },
-    {
-      "title": "Go to a music festival with some friends",
-      "type": "social",
-      "price": "$$",
-      "participants": 4,
-      "id": 4
-    },
-    {
-      "title": "Write a list of things you are grateful for",
-      "type": "relaxation",
-      "price": "FREE",
-      "participants": 1,
-      "id": 5
-    },
-    {
-      "title": "Listen to your favorite album",
-      "type": "music",
-      "price": "$",
-      "participants": 1,
-      "id": 6
-    },
-    {
-      "title": "Learn to play a new instrument",
-      "type": "music",
-      "price": "$$",
-      "participants": 1,
-      "id": 7
-    },
-    {
-      "title": "Learn",
-      "type": "educational",
-      "price": "free",
-      "participants": "1",
-      "id": 8
-    },
-    {
-      "title": "not learn",
-      "type": "educational",
-      "price": "$$$",
-      "participants": "2",
-      "id": 9
     }
   ]
 }

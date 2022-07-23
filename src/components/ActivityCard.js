@@ -7,18 +7,23 @@ const ActivityCard = ({ activity, onDeleteActivity }) => {
     fetch(`http://localhost:3001/activities/${activity.id}`, {
       method: "DELETE",
     })
-    .then(r => r.json())
-    .then(() => onDeleteActivity(activity))
+      .then(r => r.json())
+      .then(() => onDeleteActivity(activity))
   }
+
+  let inputTitle = activity.title.charAt(0).toUpperCase() + activity.title.slice(1)
 
   let inputType, inputPrice;
 
-  if(activity.type === "diy") {
+  if (activity.type === "diy") {
     inputType = activity.type.toUpperCase()
-  } else if(activity.price === "free") {
-    inputPrice = activity.price.toUpperCase()
-  }else {
+  } else {
     inputType = activity.type.charAt(0).toUpperCase() + activity.type.slice(1)
+  }
+
+  if (activity.price === "free") {
+    inputPrice = activity.price.toUpperCase()
+  } else {
     inputPrice = activity.price
   }
 
@@ -29,7 +34,7 @@ const ActivityCard = ({ activity, onDeleteActivity }) => {
         onClick={handleDeleteClick}
       >X</button>
       <div className='activity-info'>
-        <h3>{activity.title.charAt(0).toUpperCase() + activity.title.slice(1)}</h3>
+        <h3>{inputTitle}</h3>
         <h5>Type: {inputType}</h5>
         <h5>Price: {inputPrice}</h5>
         <h5>Participants: {activity.participants}</h5>
