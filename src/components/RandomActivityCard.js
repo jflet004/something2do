@@ -5,23 +5,24 @@ const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
 
   let activityPrice;
 
-  if (randomActivity.price <= 0.33) {
+  if(randomActivity.price === 0) {
+    activityPrice = "FREE"
+  } else if (randomActivity.price <= 0.33) {
     activityPrice = "$"
-  } else if (randomActivity.price <= 0.66) {
+  } else if (randomActivity.price <= 0.66 && randomActivity.price > 0.33) {
     activityPrice = "$$"
   } else {
     activityPrice = "$$$"
   }
 
   const handleAddClick = () => {
-
     const selectedRandomActivity = {
       title: randomActivity.activity,
       type: randomActivity.type,
       price: activityPrice,
       participants: randomActivity.participants,
-      link: randomActivity.link
     }
+
     fetch(`http://localhost:3001/activities
     `, {
       method: "POST",
@@ -30,6 +31,7 @@ const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
       },
       body: JSON.stringify(selectedRandomActivity)
     })
+
     setIsClicked(!isClicked)
   }
 
@@ -39,10 +41,9 @@ const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
       <div className='activity-card'>
         <div className='activity-info'>
           <h3>{randomActivity.activity}</h3>
-          <h5>Type: {randomActivity.type}</h5>
+          <h5>Type: {randomActivity.type.charAt(0).toUpperCase() + randomActivity.type.slice(1)}</h5>
           <h5>Price: {activityPrice}</h5>
           <h5>Participants: {randomActivity.participants}</h5>
-          <h5>Link: {randomActivity.link}</h5>
           <button
             onClick={handleAddClick}
             disabled={isClicked}

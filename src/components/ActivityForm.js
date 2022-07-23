@@ -6,7 +6,6 @@ const ActivityForm = () => {
   const [type, setType] = useState("")
   const [price, setPrice] = useState("")
   const [participants, setParticipants] = useState("")
-  const [link, setLink] = useState("")
 
   const handleSubmit = e => {
     e.preventDefault()
@@ -15,7 +14,6 @@ const ActivityForm = () => {
       type,
       price,
       participants,
-      link,
     }
 
     fetch("http://localhost:3001/activities", {
@@ -30,7 +28,6 @@ const ActivityForm = () => {
     setType("")
     setPrice("")
     setParticipants("")
-    setLink("")
 
   }
 
@@ -45,8 +42,6 @@ const ActivityForm = () => {
         <input required onChange={(e) => setPrice(e.target.value)} type="text" name="price" id="price" value={price}></input><br /><br />
         <label>*Participants</label>
         <input required onChange={(e) => setParticipants(e.target.value)} type="text" name="participants" id="participants" value={participants}></input><br /><br />
-        <label>Link</label>
-        <input onChange={(e) => setLink(e.target.value)} type="text" name="link" id="link" value={link}></input><br /><br />
         <p>* required fields</p>
         <input type="submit" value="Add"></input><br /><br />
       </form>
