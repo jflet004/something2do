@@ -3,6 +3,7 @@
   width: 300px;
   margin: auto;
   margin-top: 5em;
+  background-color: rgb(169, 235, 228);
 }
 
 .activity-info {
@@ -12,4 +13,9 @@
 .card {
   display: flex;
   flex-wrap: wrap;
+}
+
+.delete-btn {
+  background-color: black;
+  color: white;
 }

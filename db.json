@@ -1,39 +1,67 @@
 {
   "activities": [
     {
-      "title": "Create or update your resume",
-      "type": "busywork",
+      "title": "Study a foreign language",
+      "type": "education",
       "price": "FREE",
       "participants": 1,
       "id": 1
     },
     {
-      "title": "Organize a cluttered drawer",
-      "type": "busywork",
-      "price": "FREE",
+      "title": "Learn how to fold a paper crane",
+      "type": "education",
+      "price": "$",
       "participants": 1,
       "id": 2
     },
     {
-      "title": "Learn how the internet works",
-      "type": "education",
-      "price": "FREE",
+      "title": "Explore the nightlife of your city",
+      "type": "social",
+      "price": "$",
       "participants": 1,
       "id": 3
     },
     {
-      "title": "Shop at support your local farmers market",
+      "title": "Go to a music festival with some friends",
+      "type": "social",
+      "price": "$$",
+      "participants": 4,
+      "id": 4
+    },
+    {
+      "title": "Write a list of things you are grateful for",
       "type": "relaxation",
-      "price": "$",
+      "price": "FREE",
       "participants": 1,
       "id": 5
     },
     {
-      "title": "Pot some plants and put them around your house",
-      "type": "relaxation",
-      "price": "$$",
+      "title": "Listen to your favorite album",
+      "type": "music",
+      "price": "$",
       "participants": 1,
       "id": 6
+    },
+    {
+      "title": "Learn to play a new instrument",
+      "type": "music",
+      "price": "$$",
+      "participants": 1,
+      "id": 7
+    },
+    {
+      "title": "Learn",
+      "type": "educational",
+      "price": "free",
+      "participants": "1",
+      "id": 8
+    },
+    {
+      "title": "not learn",
+      "type": "educational",
+      "price": "$$$",
+      "participants": "2",
+      "id": 9
     }
   ]
 }

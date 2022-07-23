@@ -1,7 +1,13 @@
-.navBar {
+.navigation-bar {
+  text-align: center;
+}
+
+.link {
   width: 60%;
   margin: 5% 0 1%;
   padding: 1em;
   text-decoration: none;
-  color: blue;
+  color: gray;
+  background-color: rgb(169, 235, 228);
+  text-align: center;
 }

@@ -11,43 +11,43 @@ import { NavLink } from 'react-router-dom'
 // }
 const NavBar = () => {
   return (
-    <div>
-      <NavLink className='navBar'
+    <div className='navigation-bar'>
+      <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "red",
+          color: "black",
         }}
         exact
         to="/"
       >Home</NavLink>
-      <NavLink className='navBar'
+      <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "red",
+          color: "black",
         }}
         exact
         to="/randomactivity"
       >Random Activity</NavLink>
-      <NavLink className='navBar'
+      <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "red",
+          color: "black",
         }}
         exact
         to="/activities"
       >My Activities</NavLink>
-      <NavLink className='navBar'
+      <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "red",
+          color: "black",
         }}
         exact
         to="/activityForm"
       >Add Activity</NavLink>
-      <NavLink className='navBar'
+      <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "red",
+          color: "black",
         }}
         exact
         to="/about"
