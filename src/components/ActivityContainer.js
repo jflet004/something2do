@@ -1,10 +1,8 @@
 import './styles/ActivityCard.css'
-import React, { useState, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import ActivityList from "./ActivityList"
 
-const ActivityContainer = () => {
-
-  const [activities, setActivities] = useState([])
+const ActivityContainer = ({ activities, setActivities }) => {
 
   useEffect(() => {
     fetch("http://localhost:3001/activities")

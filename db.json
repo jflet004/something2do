@@ -1,74 +1,18 @@
 {
   "activities": [
     {
-      "title": "Make a bucket list",
-      "type": "busywork",
-      "price": "FREE",
+      "title": "Donate to your local food bank",
+      "type": "charity",
+      "price": "$$",
       "participants": 1,
       "id": 1
     },
     {
-      "title": "Organize your movie collection",
-      "type": "busywork",
-      "price": "FREE",
+      "title": "Go to a local thrift shop",
+      "type": "recreational",
+      "price": "$",
       "participants": 1,
       "id": 2
-    },
-    {
-      "title": "Learn to write with your nondominant hand",
-      "type": "recreational",
-      "price": "FREE",
-      "participants": 1,
-      "id": 3
-    },
-    {
-      "title": "Have a photo session with some friends",
-      "type": "social",
-      "price": "$",
-      "participants": 4,
-      "id": 4
-    },
-    {
-      "title": "Have a photo session with some friends",
-      "type": "social",
-      "price": "$",
-      "participants": 4,
-      "id": 5
-    },
-    {
-      "title": "Start a collection",
-      "type": "recreational",
-      "price": "FREE",
-      "participants": 1,
-      "id": 6
-    },
-    {
-      "title": "Volunteer at your local food pantry",
-      "type": "charity",
-      "price": "FREE",
-      "participants": 1,
-      "id": 7
-    },
-    {
-      "title": "Pull a harmless prank on one of your friends",
-      "type": "social",
-      "price": "$",
-      "participants": 1,
-      "id": 8
-    },
-    {
-      "title": "Create or update your resume",
-      "type": "busywork",
-      "price": "FREE",
-      "participants": 1,
-      "id": 9
-    },
-    {
-      "title": "Have a jam session with your friends",
-      "type": "music",
-      "price": "$",
-      "participants": 5,
-      "id": 10
     }
   ]
 }

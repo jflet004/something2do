@@ -1,7 +1,7 @@
 import './styles/Form.css'
 import React, { useState } from 'react'
 
-const ActivityForm = () => {
+const ActivityForm = ({ setActivities }) => {
 
   const [title, setTitle] = useState("")
   const [type, setType] = useState("")
@@ -24,7 +24,9 @@ const ActivityForm = () => {
       },
       body: JSON.stringify(activityObj)
     })
-    //revisit
+    .then(r => r.json())
+    .then(data => setActivities(data))
+    .catch(error => alert(error))
 
     setTitle("")
     setType("")

@@ -1,5 +1,5 @@
 import './styles/App.css'
-import React from 'react'
+import React, { useState } from 'react'
 import Home from './Home'
 import Header from './Header'
 import NavBar from './NavBar'
@@ -9,22 +9,29 @@ import RandomActivity from './RandomActivity'
 import { Switch, Route } from 'react-router-dom'
 
 const App = () => {
+  const [activities, setActivities] = useState([])
+
   return (
     <div>
       <NavBar />
       <Header />
       <Switch>
-        
+
         <Route exact path="/">
           <Home />
         </Route>
 
         <Route path="/activities">
-          <ActivityContainer />
+          <ActivityContainer
+            activities={activities}
+            setActivities={setActivities}
+          />
         </Route>
 
         <Route path="/activityform">
-          <ActivityForm />
+          <ActivityForm
+            setActivities={setActivities}
+          />
         </Route>
 
         <Route path="/randomactivity">
