@@ -1,46 +1,74 @@
 {
   "activities": [
     {
-      "title": "Contribute code or a monetary donation to an open-source software project",
-      "type": "charity",
-      "price": "$",
+      "title": "Make a bucket list",
+      "type": "busywork",
+      "price": "FREE",
       "participants": 1,
+      "id": 1
+    },
+    {
+      "title": "Organize your movie collection",
+      "type": "busywork",
+      "price": "FREE",
+      "participants": 1,
+      "id": 2
+    },
+    {
+      "title": "Learn to write with your nondominant hand",
+      "type": "recreational",
+      "price": "FREE",
+      "participants": 1,
+      "id": 3
+    },
+    {
+      "title": "Have a photo session with some friends",
+      "type": "social",
+      "price": "$",
+      "participants": 4,
+      "id": 4
+    },
+    {
+      "title": "Have a photo session with some friends",
+      "type": "social",
+      "price": "$",
+      "participants": 4,
       "id": 5
     },
     {
-      "title": "Plan a trip to another country",
+      "title": "Start a collection",
       "type": "recreational",
+      "price": "FREE",
+      "participants": 1,
+      "id": 6
+    },
+    {
+      "title": "Volunteer at your local food pantry",
+      "type": "charity",
       "price": "FREE",
       "participants": 1,
       "id": 7
     },
     {
-      "title": "Look at your finances and find one way to save money",
+      "title": "Pull a harmless prank on one of your friends",
+      "type": "social",
+      "price": "$",
+      "participants": 1,
+      "id": 8
+    },
+    {
+      "title": "Create or update your resume",
       "type": "busywork",
       "price": "FREE",
       "participants": 1,
-      "id": 11
+      "id": 9
     },
     {
-      "title": "Go stargazing",
-      "type": "relaxation",
-      "price": "FREE",
-      "participants": 1,
-      "id": 12
-    },
-    {
-      "title": "Learn calligraphy",
-      "type": "education",
+      "title": "Have a jam session with your friends",
+      "type": "music",
       "price": "$",
-      "participants": 1,
-      "id": 13
-    },
-    {
-      "title": "Plant a tree",
-      "type": "recreational",
-      "price": "$",
-      "participants": 1,
-      "id": 14
+      "participants": 5,
+      "id": 10
     }
   ]
 }

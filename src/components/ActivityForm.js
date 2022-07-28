@@ -36,13 +36,15 @@ const ActivityForm = () => {
   return (
     <div className='form-text'>
       <form onSubmit={handleSubmit} className="form">
-        <label>Title</label>
+        <label className='label-text'>Title</label>
         <input className="form-input-box" required onChange={(e) => setTitle(e.target.value)} type="text" name="title" id="title" value={title}></input><br /><br />
-        <label>Type*</label>
+        <label className='label-text'>Type</label>
+        <label className='asterisk'>*</label>
         <input className="form-input-box" required onChange={(e) => setType(e.target.value)} type="text" name="type" id="type" value={type}></input><br /><br />
-        <label>Price*</label>
+        <label className='label-text'>Price</label>
+        <label className='asterisk'>*</label>
         <input className="form-input-box" required onChange={(e) => setPrice(e.target.value)} type="text" name="price" id="price" value={price}></input><br /><br />
-        <label>Participants</label>
+        <label className='label-text'>Participants</label>
         <input className="form-input-box" required onChange={(e) => setParticipants(e.target.value)} type="text" name="participants" id="participants" value={participants}></input><br /><br /><br />
         <input className="submit-btn" type="submit" value="Add"></input><br /><br />
       </form>

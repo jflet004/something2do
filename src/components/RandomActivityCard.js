@@ -45,7 +45,7 @@ const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
           <h5>Type: {randomActivity.type.charAt(0).toUpperCase() + randomActivity.type.slice(1)}</h5>
           <h5>Price: {activityPrice}</h5>
           <h5>Participants: {randomActivity.participants}</h5>
-          <button className='add-activity-btn'
+          <button className= {isClicked ? 'clicked' : 'add-activity-btn'}
             onClick={handleAddClick}
             disabled={isClicked}
           >{isClicked ? "Added" : 'Add to "My Activities"'}</button>

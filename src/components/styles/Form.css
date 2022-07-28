@@ -10,8 +10,13 @@
   font-size: 25px;
 }
 
-label {
+.label-text {
   float: left;
+}
+
+.asterisk {
+  float: left;
+  color: #fc5185;
 }
 
 .input-description {
