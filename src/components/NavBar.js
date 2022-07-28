@@ -15,7 +15,7 @@ const NavBar = () => {
       <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "black",
+          color: "#fc5185",
         }}
         exact
         to="/"
@@ -23,7 +23,7 @@ const NavBar = () => {
       <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "black",
+          color: "#fc5185",
         }}
         exact
         to="/randomactivity"
@@ -31,7 +31,7 @@ const NavBar = () => {
       <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "black",
+          color: "#fc5185",
         }}
         exact
         to="/activities"
@@ -39,19 +39,19 @@ const NavBar = () => {
       <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "black",
+          color: "#fc5185",
         }}
         exact
         to="/activityForm"
       >Add Activity</NavLink>
-      <NavLink className='link'
+      {/* <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
-          color: "black",
+          color: "#fc5185",
         }}
         exact
         to="/about"
-      >About</NavLink>
+      >About</NavLink> */}
     </div>
   )
 }

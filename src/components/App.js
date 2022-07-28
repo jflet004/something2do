@@ -6,19 +6,15 @@ import NavBar from './NavBar'
 import ActivityContainer from './ActivityContainer'
 import ActivityForm from './ActivityForm'
 import RandomActivity from './RandomActivity'
-import About from './About'
-import Footer from './Footer'
 import { Switch, Route } from 'react-router-dom'
 
 const App = () => {
   return (
     <div>
       <NavBar />
-      <Header
-        appName="Something2Do"
-        slogan="A solution to your boredom"
-      />
+      <Header />
       <Switch>
+        
         <Route exact path="/">
           <Home />
         </Route>
@@ -31,15 +27,11 @@ const App = () => {
           <ActivityForm />
         </Route>
 
-        <Route path="/about">
-          <About />
-        </Route>
-
         <Route path="/randomactivity">
           <RandomActivity />
         </Route>
+
       </Switch>
-      <Footer />
     </div>
   )
 }

@@ -1,11 +1,18 @@
 {
   "activities": [
     {
-      "title": "Learn about a distributed version control system such as Git",
-      "type": "education",
-      "price": "FREE",
+      "title": "Contribute code or a monetary donation to an open-source software project",
+      "type": "charity",
+      "price": "$",
       "participants": 1,
-      "id": 1
+      "id": 5
+    },
+    {
+      "title": "Catch up with a friend over a lunch date",
+      "type": "social",
+      "price": "$",
+      "participants": 2,
+      "id": 6
     }
   ]
 }

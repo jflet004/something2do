@@ -19,8 +19,8 @@ const RandomActivity = () => {
   }
 
   return (
-    <div className='randomBtn'>
-    <button  onClick={handleRandomActivityClick}>Get Random Activity</button>
+    <div className='random'>
+    <button className='randomBtn' onClick={handleRandomActivityClick}>Get Random Activity</button>
       {randomActivity && <RandomActivityCard
         randomActivity={randomActivity}
         isClicked={isClicked}

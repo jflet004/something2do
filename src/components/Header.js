@@ -1,11 +1,11 @@
 import './styles/Header.css'
+import logo from './images/websiteLogo.png'
 import React from 'react'
 
-const Header = ({ slogan, appName }) => {
+const Header = () => {
   return (
     <div className='header'>
-      <h1>{appName}</h1>
-      <h3>{slogan}</h3>
+      <img src={logo} />
     </div>
   )
 }

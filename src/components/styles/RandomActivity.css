@@ -1,4 +1,12 @@
 .randomBtn {
+  border-color: #364f6b;
+  border-width: 3px;
+  background-color: white;
+  color: #364f6b;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.random {
   text-align: center;
-  padding-top: 1%;
 }

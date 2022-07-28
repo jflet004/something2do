@@ -1,14 +1,20 @@
 .activity-card {
+  padding: 5px;
+  text-overflow: initial;
   border: solid;
-  width: 40em;
-  height: 22em;
+  border-width: 5px;
+  width: 450px;
+  height: 400px;
   margin: auto;
-  margin-top: 5em;
-  background-color: rgb(169, 235, 228);
+  background-color: #6cd7dd;
+  color: #364f6b;
+  font-weight: bolder;
+  margin-top: 50px;
 }
 
 .activity-info {
-  font-size: 150%;
+  padding-top: 10px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -18,6 +24,16 @@
 }
 
 .delete-btn {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color:#364f6b;
+  font-weight: bolder;
+}
+
+.add-activity-btn {
+  border-color: #364f6b;
+  border-width: 3px;
+  background-color: white;
+  color: #364f6b;
+  font-size: 15px;
+  font-weight: bolder;
 }
