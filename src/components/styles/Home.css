@@ -2,10 +2,17 @@
   font-size: 25px;
   text-align: center;
   color: #364f6b;
+  text-shadow: 1px 1px 1px #364f6b;
 }
 
 ul {
   display: table;
   margin: auto;
   text-align: left;
+}
+
+h4 {
+  color: #fc5185;
+  text-shadow: 1px 1px 1px black;
+
 }

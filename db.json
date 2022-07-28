@@ -8,11 +8,39 @@
       "id": 5
     },
     {
-      "title": "Catch up with a friend over a lunch date",
-      "type": "social",
+      "title": "Plan a trip to another country",
+      "type": "recreational",
+      "price": "FREE",
+      "participants": 1,
+      "id": 7
+    },
+    {
+      "title": "Look at your finances and find one way to save money",
+      "type": "busywork",
+      "price": "FREE",
+      "participants": 1,
+      "id": 11
+    },
+    {
+      "title": "Go stargazing",
+      "type": "relaxation",
+      "price": "FREE",
+      "participants": 1,
+      "id": 12
+    },
+    {
+      "title": "Learn calligraphy",
+      "type": "education",
       "price": "$",
-      "participants": 2,
-      "id": 6
+      "participants": 1,
+      "id": 13
+    },
+    {
+      "title": "Plant a tree",
+      "type": "recreational",
+      "price": "$",
+      "participants": 1,
+      "id": 14
     }
   ]
 }
