@@ -20,7 +20,7 @@ cd something2do
 
 Once in the correct directory, get the server running by typing `npm run server` and in a different tab, you can open the application by typing `npm start`
 
-Follow the prompts on the home page and enjoy!
+Follow the prompts on the home page and enjoy! For a more complete walkthrough, check out this [video](https://youtu.be/hGxxqxTVXx4)! 
 
 ![GIF](src/components/images/app%20usage.gif)
 
