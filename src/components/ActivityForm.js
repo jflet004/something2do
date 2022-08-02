@@ -1,5 +1,6 @@
 import './styles/Form.css'
 import React, { useState } from 'react'
+import { useHistory } from 'react-router-dom'
 
 const ActivityForm = ({ setActivities }) => {
 
@@ -7,6 +8,8 @@ const ActivityForm = ({ setActivities }) => {
   const [type, setType] = useState("")
   const [price, setPrice] = useState("")
   const [participants, setParticipants] = useState("")
+
+  const history = useHistory();
 
   const handleSubmit = e => {
     e.preventDefault()
@@ -24,9 +27,9 @@ const ActivityForm = ({ setActivities }) => {
       },
       body: JSON.stringify(activityObj)
     })
-    .then(r => r.json())
-    .then(data => setActivities(data))
-    .catch(error => alert(error))
+    // REVISIT
+    
+    history.push("/activities")
 
     setTitle("")
     setType("")

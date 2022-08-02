@@ -7,9 +7,7 @@ const ActivityContainer = ({ activities, setActivities }) => {
   useEffect(() => {
     fetch("http://localhost:3001/activities")
       .then(r => r.json())
-      .then(data => {
-        setActivities(data)
-      })
+      .then(data => setActivities(data))
       .catch(error => alert(error))
   }, [])
 

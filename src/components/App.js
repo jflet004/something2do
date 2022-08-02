@@ -6,6 +6,7 @@ import NavBar from './NavBar'
 import ActivityContainer from './ActivityContainer'
 import ActivityForm from './ActivityForm'
 import RandomActivity from './RandomActivity'
+import Footer from './Footer'
 import { Switch, Route } from 'react-router-dom'
 
 const App = () => {
@@ -16,7 +17,6 @@ const App = () => {
       <NavBar />
       <Header />
       <Switch>
-
         <Route exact path="/">
           <Home />
         </Route>
@@ -31,14 +31,15 @@ const App = () => {
         <Route path="/activityform">
           <ActivityForm
             setActivities={setActivities}
+            activities={activities}
           />
         </Route>
 
         <Route path="/randomactivity">
           <RandomActivity />
         </Route>
-
       </Switch>
+      <Footer />
     </div>
   )
 }

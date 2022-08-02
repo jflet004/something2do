@@ -1,18 +1,3 @@
 {
-  "activities": [
-    {
-      "title": "Donate to your local food bank",
-      "type": "charity",
-      "price": "$$",
-      "participants": 1,
-      "id": 1
-    },
-    {
-      "title": "Go to a local thrift shop",
-      "type": "recreational",
-      "price": "$",
-      "participants": 1,
-      "id": 2
-    }
-  ]
+  "activities": []
 }

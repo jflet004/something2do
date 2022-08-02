@@ -2,6 +2,7 @@ import React from 'react'
 import ActivityCard from './ActivityCard'
 
 const ActivityList = ({ activities, onDeleteActivity }) => {
+  console.log(activities)
   const activityCards = activities.map(activity => 
     <ActivityCard 
       key={activity.id}

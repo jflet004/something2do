@@ -1,3 +1,39 @@
+# Something2Do
+
+## Description
+
+Something2Do is a single page application that accesses random data from a public API and uses a `json-server` to create a RESTful API for my backend. This application's sole purpose is to help you come up with an activity whenever you are bored; something I was a lot during the pandemic.
+
+## Installation
+
+To install, fork and clone this [repository](https://github.com/jflet004/something2do)
+
+When that is done, make sure to `cd` into the correct directory
+
+```bash
+cd something2do
+```
+
+## Usage
+
+Once in the correct directory, get the server running by typing `npm run server` and in a different tab, you can open the application by typing `npm start`
+
+Follow the prompts on the home page and enjoy!
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Acknowledgment
+
+Thank you to the creators and its contributors for making this [BoredAPI](http://www.boredapi.com/) public API!!
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
