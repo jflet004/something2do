@@ -8,6 +8,8 @@ Something2Do is a single page application that accesses random data from a publi
 
 To install, fork and clone this [repository](https://github.com/jflet004/something2do)
 
+![GIF](src/components/images/installation.gif)
+
 When that is done, make sure to `cd` into the correct directory
 
 ```bash
@@ -20,15 +22,16 @@ Once in the correct directory, get the server running by typing `npm run server`
 
 Follow the prompts on the home page and enjoy!
 
+![GIF](src/components/images/app%20usage.gif)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 Please make sure to update tests as appropriate.
 
 ## Acknowledgment
 
-Thank you to the creators and its contributors for making this [BoredAPI](http://www.boredapi.com/) public API!!
+Thank you to the creators and its contributors for making this public [BoredAPI](http://www.boredapi.com/)!!
 
 ## License
 
