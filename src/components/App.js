@@ -24,6 +24,10 @@ const App = () => {
     setActivities(updatedActivityList)
   }
 
+  const handleAddActivity = (newActivity) => {
+    setActivities([...activities, newActivity])
+  }
+
   return (
     <div>
       <NavBar />
@@ -42,8 +46,7 @@ const App = () => {
 
         <Route path="/activityform">
           <ActivityForm
-            setActivities={setActivities}
-            activities={activities}
+            onAddActivity={handleAddActivity}
           />
         </Route>
 

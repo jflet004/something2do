@@ -2,7 +2,7 @@ import './styles/Form.css'
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-const ActivityForm = ({ setActivities }) => {
+const ActivityForm = ({ onAddActivity }) => {
 
   const [title, setTitle] = useState("")
   const [type, setType] = useState("")
@@ -27,6 +27,9 @@ const ActivityForm = ({ setActivities }) => {
       },
       body: JSON.stringify(activityObj)
     })
+    .then(response => response.json())
+    .then(newActivity => onAddActivity(newActivity))
+    .catch(error => alert(error))
     // REVISIT
     
     history.push("/activities")
