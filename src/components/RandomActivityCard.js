@@ -1,12 +1,12 @@
 import "./styles/ActivityCard.css"
 import React from 'react'
 
-const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
+const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked, onAddActivity }) => {
 
 
   let activityPrice;
 
-  if(randomActivity.price === 0) {
+  if (randomActivity.price === 0) {
     activityPrice = "FREE"
   } else if (randomActivity.price <= 0.33) {
     activityPrice = "$"
@@ -32,6 +32,9 @@ const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
       },
       body: JSON.stringify(selectedRandomActivity)
     })
+      .then(response => response.json())
+      .then(data => onAddActivity(data))
+      .catch(error => alert(error))
 
     setIsClicked(!isClicked)
   }
@@ -45,7 +48,7 @@ const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked }) => {
           <h5>Type: {randomActivity.type.charAt(0).toUpperCase() + randomActivity.type.slice(1)}</h5>
           <h5>Price: {activityPrice}</h5>
           <h5>Participants: {randomActivity.participants}</h5>
-          <button className= {isClicked ? 'clicked' : 'add-activity-btn'}
+          <button className={isClicked ? 'clicked' : 'add-activity-btn'}
             onClick={handleAddClick}
             disabled={isClicked}
           >{isClicked ? "Added" : 'Add to "My Activities"'}</button>

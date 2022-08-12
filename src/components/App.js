@@ -47,11 +47,13 @@ const App = () => {
         <Route path="/activityform">
           <ActivityForm
             onAddActivity={handleAddActivity}
-          />
+            />
         </Route>
 
         <Route path="/randomactivity">
-          <RandomActivity />
+          <RandomActivity 
+            onAddActivity={handleAddActivity}
+          />
         </Route>
       </Switch>
       <Footer />

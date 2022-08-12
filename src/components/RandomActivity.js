@@ -2,16 +2,14 @@ import './styles/RandomActivity.css'
 import React, { useState } from 'react'
 import RandomActivityCard from './RandomActivityCard'
 
-const RandomActivity = () => {
+const RandomActivity = ({ onAddActivity }) => {
   const [randomActivity, setRandomActivity] = useState()
   const [isClicked, setIsClicked] = useState(false)
-
-
 
   const handleRandomActivityClick = e => {
     e.preventDefault()
     fetch("http://www.boredapi.com/api/activity/")
-      .then(r => r.json())
+      .then(response => response.json())
       .then(data => setRandomActivity(data))
       .catch(error => alert(error))
 
@@ -20,11 +18,15 @@ const RandomActivity = () => {
 
   return (
     <div className='random'>
-    <button className='randomBtn' onClick={handleRandomActivityClick}>Get Random Activity</button>
+    <button 
+      className='randomBtn' 
+      onClick={handleRandomActivityClick}
+    >Get Random Activity</button>
       {randomActivity && <RandomActivityCard
         randomActivity={randomActivity}
         isClicked={isClicked}
         setIsClicked={setIsClicked}
+        onAddActivity={onAddActivity}
       />}
     </div>
   )
