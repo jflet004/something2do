@@ -7,7 +7,7 @@ const ActivityCard = ({ activity, onDeleteActivity }) => {
     fetch(`http://localhost:3001/activities/${activity.id}`, {
       method: "DELETE",
     })
-      .then(r => r.json())
+      .then(response => response.json())
       .then(() => onDeleteActivity(activity))
   }
 

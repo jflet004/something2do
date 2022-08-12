@@ -1,5 +1,5 @@
 import './styles/App.css'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Home from './Home'
 import Header from './Header'
 import NavBar from './NavBar'
@@ -11,6 +11,18 @@ import { Switch, Route } from 'react-router-dom'
 
 const App = () => {
   const [activities, setActivities] = useState([])
+
+  useEffect(() => {
+    fetch("http://localhost:3001/activities")
+      .then(r => r.json())
+      .then(data => setActivities(data))
+      .catch(error => alert(error))
+  }, [])
+
+  const handleDeleteActivity = (deletedActivity) => {
+    const updatedActivityList = activities.filter(activity => activity.id !== deletedActivity.id)
+    setActivities(updatedActivityList)
+  }
 
   return (
     <div>
@@ -24,7 +36,7 @@ const App = () => {
         <Route path="/activities">
           <ActivityContainer
             activities={activities}
-            setActivities={setActivities}
+            onDeleteActivity={handleDeleteActivity}
           />
         </Route>
 

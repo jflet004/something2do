@@ -1,3 +1,18 @@
 {
-  "activities": []
+  "activities": [
+    {
+      "title": "Do a jigsaw puzzle",
+      "type": "recreational",
+      "price": "$",
+      "participants": 1,
+      "id": 1
+    },
+    {
+      "title": "Pot some plants and put them around your house",
+      "type": "relaxation",
+      "price": "$$",
+      "participants": 1,
+      "id": 2
+    }
+  ]
 }
