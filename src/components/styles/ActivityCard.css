@@ -5,11 +5,12 @@
   border-width: 5px;
   width: 450px;
   height: 400px;
-  margin: auto;
+  margin: 50px;
   background-color: #6cd7dd;
   color: #364f6b;
   font-weight: bolder;
   margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 .activity-info {

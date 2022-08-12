@@ -4,7 +4,9 @@ import React from 'react'
 const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked, onAddActivity }) => {
 
 
-  let activityPrice;
+  let activityPrice, inputType;
+  
+  randomActivity.type === "diy" ? inputType = randomActivity.type.toUpperCase() : inputType = randomActivity.type.charAt(0).toUpperCase() + randomActivity.type.slice(1)
 
   if (randomActivity.price === 0) {
     activityPrice = "FREE"
@@ -45,10 +47,11 @@ const RandomActivityCard = ({ randomActivity, isClicked, setIsClicked, onAddActi
       <div className='activity-card'>
         <div className='activity-info'>
           <h3>{randomActivity.activity}</h3>
-          <h5>Type: {randomActivity.type.charAt(0).toUpperCase() + randomActivity.type.slice(1)}</h5>
+          <h5>Type: {inputType}</h5>
           <h5>Price: {activityPrice}</h5>
           <h5>Participants: {randomActivity.participants}</h5>
-          <button className={isClicked ? 'clicked' : 'add-activity-btn'}
+          <button
+            className={isClicked ? 'clicked' : 'add-activity-btn'}
             onClick={handleAddClick}
             disabled={isClicked}
           >{isClicked ? "Added" : 'Add to "My Activities"'}</button>

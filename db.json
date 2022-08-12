@@ -1,3 +1,172 @@
 {
-  "activities": []
+  "activities": [
+    {
+      "title": "Learn Morse code",
+      "type": "education",
+      "price": "FREE",
+      "participants": 1,
+      "id": 1
+    },
+    {
+      "title": "Start a blog for something you're passionate about",
+      "type": "recreational",
+      "price": "$",
+      "participants": 1,
+      "id": 2
+    },
+    {
+      "title": "Prepare a 72-hour kit",
+      "type": "busywork",
+      "price": "$$",
+      "participants": 1,
+      "id": 3
+    },
+    {
+      "title": "Configure two-factor authentication on your accounts",
+      "type": "busywork",
+      "price": "FREE",
+      "participants": 1,
+      "id": 4
+    },
+    {
+      "title": "Catch up with a friend over a lunch date",
+      "type": "social",
+      "price": "$",
+      "participants": 2,
+      "id": 5
+    },
+    {
+      "title": "Learn how to fold a paper crane",
+      "type": "education",
+      "price": "$",
+      "participants": 1,
+      "id": 6
+    },
+    {
+      "title": "Wash your car",
+      "type": "busywork",
+      "price": "$",
+      "participants": 1,
+      "id": 7
+    },
+    {
+      "title": "Explore the nightlife of your city",
+      "type": "social",
+      "price": "$",
+      "participants": 1,
+      "id": 8
+    },
+    {
+      "title": "Learn the Chinese erhu",
+      "type": "music",
+      "price": "$$",
+      "participants": 1,
+      "id": 9
+    },
+    {
+      "title": "Memorize a favorite quote or poem",
+      "type": "education",
+      "price": "FREE",
+      "participants": 1,
+      "id": 10
+    },
+    {
+      "title": "Create a cookbook with your favorite recipes",
+      "type": "cooking",
+      "price": "FREE",
+      "participants": 1,
+      "id": 11
+    },
+    {
+      "title": "Find a charity and donate to it",
+      "type": "charity",
+      "price": "$$",
+      "participants": 1,
+      "id": 12
+    },
+    {
+      "title": "Start a band",
+      "type": "music",
+      "price": "$",
+      "participants": 4,
+      "id": 13
+    },
+    {
+      "title": "Bake something you've never tried before",
+      "type": "cooking",
+      "price": "$$",
+      "participants": 1,
+      "id": 14
+    },
+    {
+      "title": "Fix something that's broken in your house",
+      "type": "diy",
+      "price": "$",
+      "participants": 1,
+      "id": 15
+    },
+    {
+      "title": "Learn woodworking",
+      "type": "diy",
+      "price": "$",
+      "participants": 1,
+      "id": 16
+    },
+    {
+      "title": "Prepare a 72-hour kit",
+      "type": "busywork",
+      "price": "$$",
+      "participants": 1,
+      "id": 17
+    },
+    {
+      "title": "Learn the periodic table",
+      "type": "education",
+      "price": "FREE",
+      "participants": 1,
+      "id": 18
+    },
+    {
+      "title": "Go to a concert with local artists with some friends",
+      "type": "social",
+      "price": "$$",
+      "participants": 3,
+      "id": 19
+    },
+    {
+      "title": "Go see a movie in theaters with a few friends",
+      "type": "social",
+      "price": "$",
+      "participants": 4,
+      "id": 20
+    },
+    {
+      "title": "Go swimming with a friend",
+      "type": "social",
+      "price": "$",
+      "participants": 2,
+      "id": 21
+    },
+    {
+      "title": "Patronize a local independent restaurant",
+      "type": "recreational",
+      "price": "$",
+      "participants": 1,
+      "id": 22
+    },
+    {
+      "title": "Learn the periodic table",
+      "type": "education",
+      "price": "FREE",
+      "participants": 1,
+      "id": 23
+    },
+    {
+      "title": "Explore a park you have never been to before",
+      "type": "recreational",
+      "price": "FREE",
+      "participants": 1,
+      "id": 24
+    }
+  ]
 }

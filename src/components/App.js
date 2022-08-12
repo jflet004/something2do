@@ -7,6 +7,7 @@ import ActivityContainer from './ActivityContainer'
 import ActivityForm from './ActivityForm'
 import RandomActivity from './RandomActivity'
 import Footer from './Footer'
+import About from './About'
 import { Switch, Route } from 'react-router-dom'
 
 const App = () => {
@@ -54,6 +55,10 @@ const App = () => {
           <RandomActivity 
             onAddActivity={handleAddActivity}
           />
+        </Route>
+   
+        <Route path="/about">
+          <About />
         </Route>
       </Switch>
       <Footer />

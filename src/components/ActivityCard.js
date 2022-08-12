@@ -12,20 +12,10 @@ const ActivityCard = ({ activity, onDeleteActivity }) => {
   }
 
   let inputTitle = activity.title.charAt(0).toUpperCase() + activity.title.slice(1)
-
   let inputType, inputPrice;
 
-  if (activity.type === "diy") {
-    inputType = activity.type.toUpperCase()
-  } else {
-    inputType = activity.type.charAt(0).toUpperCase() + activity.type.slice(1)
-  }
-
-  if (activity.price === "free") {
-    inputPrice = activity.price.toUpperCase()
-  } else {
-    inputPrice = activity.price
-  }
+  activity.type === "diy" ? inputType = activity.type.toUpperCase() : inputType = activity.type.charAt(0).toUpperCase() + activity.type.slice(1)
+  activity.price === "free" ? inputPrice = activity.price.toUpperCase() : inputPrice = activity.price
 
   return (
     <div className='activity-card'>

@@ -2,13 +2,6 @@ import './styles/NavBar.css'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-// const style = {
-//   width: "60%",
-//   margin: "5% 0 1%",
-//   padding: "1em",
-//   textDecoration: "none",
-//   color: "blue"
-// }
 const NavBar = () => {
   return (
     <div className='navigation-bar'>
@@ -44,14 +37,14 @@ const NavBar = () => {
         exact
         to="/activityForm"
       >Add Activity</NavLink>
-      {/* <NavLink className='link'
+      <NavLink className='link'
         activeStyle={{
           fontWeight: "bolder",
           color: "#fc5185",
         }}
         exact
         to="/about"
-      >About</NavLink> */}
+      >About</NavLink>
     </div>
   )
 }

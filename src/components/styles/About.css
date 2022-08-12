@@ -1,0 +1,13 @@
+.about-text {
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+p {
+  margin: auto;
+  text-align: center;
+  color: #364f6b;
+}
